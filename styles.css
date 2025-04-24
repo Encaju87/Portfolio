@@ -302,7 +302,7 @@ header {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -321,7 +321,7 @@ header {
 }
 
 .project-image {
-    height: 200px;
+    height: 610px;
     /*background-color: #eee;*/
     background-image: url('assets/project.png');
     position: relative;
@@ -585,3 +585,37 @@ footer {
         flex-direction: column;
     }
 }
+.toggle-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8f94fb;
+
+}
+.menu-acessibilidade {
+    background: #f5f5f7;
+    background: var(--transition);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .menu-acessibilidade.show {
+    display: flex;
+  }
+
+  .menu-acessibilidade button {
+    padding: 8px;
+    border: none;
+    background: hsl(237, 100%, 92%);
+    color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .menu-acessibilidade button:hover {
+    background: hsl(215, 100%, 65%);
+  }
