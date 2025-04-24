@@ -214,3 +214,27 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1500);
     });
 });
+let tamanhoFonte = 16;
+
+  function toggleMenu() {
+    const menu = document.getElementById("menu-acessibilidade");
+    menu.classList.toggle("show");
+  }
+
+  function toggleContraste() {
+    document.body.classList.toggle('contraste-alto');
+  }
+
+  function aumentarFonte() {
+    if (tamanhoFonte < 24) {
+      tamanhoFonte += 2;
+      document.body.style.fontSize = tamanhoFonte + 'px';
+    }
+  }
+
+  function diminuirFonte() {
+    if (tamanhoFonte > 10) {
+      tamanhoFonte -= 2;
+      document.body.style.fontSize = tamanhoFonte + 'px';
+    }
+  }
