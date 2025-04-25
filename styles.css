@@ -1,7 +1,7 @@
 /* Base Styles */
 :root {
-    --primary-color: #c84e4e;
-    --secondary-color: #8f94fb;
+    --primary-color: hsl(0, 100%, 62%);
+    --secondary-color: hwb(215 18% 0%);
     --dark-color: #2a2d3e;
     --light-color: #f5f5f7;
     --text-color: #333;
@@ -13,8 +13,8 @@
 }
 
 [data-theme="dark"] {
-    --primary-color: hsl(37, 100%, 50%);
-    --secondary-color: #a044ff;
+    --primary-color: #ffbf00;
+    --secondary-color: hwb(306 51% 0%);
     --dark-color: #121212;
     --light-color: #1e1e1e;
     --text-color: #f5f5f5;
@@ -589,8 +589,15 @@ footer {
     width: 120px;
     height: 30px;
     border-radius: 10px;
-    background-color: var(--primary-color);
-
+    border: none;
+    background-color: lightskyblue;
+}
+.toggle-btn:hover {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(57, 206, 255);
 }
 .menu-acessibilidade {
     background: #f5f5f7;
@@ -617,5 +624,5 @@ footer {
   }
 
   .menu-acessibilidade button:hover {
-    background: hsl(215, 100%, 65%);
+    background: hsl(215, 94%, 81%);
   }

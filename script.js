@@ -220,11 +220,6 @@ let tamanhoFonte = 16;
     const menu = document.getElementById("menu-acessibilidade");
     menu.classList.toggle("show");
   }
-
-  function toggleContraste() {
-    document.body.classList.toggle('contraste-alto');
-  }
-
   function aumentarFonte() {
     if (tamanhoFonte < 24) {
       tamanhoFonte += 2;
