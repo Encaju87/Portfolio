@@ -585,6 +585,12 @@ footer {
         flex-direction: column;
     }
 }
+.menuzao:hover {
+    background-color: bisque;
+}
+.menuzao {
+    border-radius: 5%;
+}
 .toggle-btn {
     width: 120px;
     height: 30px;
