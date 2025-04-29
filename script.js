@@ -82,14 +82,14 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Site acessível',
             description: 'Um site sobre o Tropicália, desenvolvido pela Alura, para o curso de Acessibilidade na Web.',
             technologies: ['HTML', 'CSS', 'JavaScript'],
-            liveLink: '#',
+            liveLink: 'https://encaju87.github.io/site-acessivel/',
             codeLink: '#'
         },
         {
             title: 'Site do portfólio',
             description: 'Esse site de portfólio, tendo o template sido desenvolvido por Sam Bispo, para as aulas de Back-end.',
             technologies: ['HTML', 'CSS', 'JavaScript'],
-            liveLink: '#',
+            liveLink: 'https://encaju87.github.io/Portfolio/',
             codeLink: '#'
         }
     ];
